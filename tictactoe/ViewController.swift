@@ -14,12 +14,14 @@ class ViewController: UIViewController {
     var status = Array(repeating: -1, count: 9)
     
     @IBOutlet weak var monBouton: UIButton!
+    
+    @IBOutlet var restart: UIView!
     @IBAction func enfonce(_ sender: UIButton) {
         
         if(!verifWin(tab: status)){
             print("Bouton enfoncé")
             
-            status[sender.tag] = joueur
+            status[sender.tag-1] = joueur
             
             if joueur == 1 {
                 sender.setImage(UIImage(named: "croix.png"), for: .normal)
@@ -32,12 +34,28 @@ class ViewController: UIViewController {
             
             sender.isEnabled = false
             if(verifWin(tab: status)){
-                print("CEST GAGNE")
+                print("JOUEUR \(joueur) A GAGNE")
+                restart.isHidden = false
             }
         }
         
     }
     
+    @IBAction func toggleRestart(_ sender: Any) {
+        joueur = 1
+        var status = Array(repeating: -1, count: 9)
+        
+        restart.isHidden = true
+        
+        var i = 1
+        
+        while i < 10{
+            let but = self.view.viewWithTag(i) as? UIButton
+            but?.setImage(UIImage(named: ""),for: .normal)
+            but?.isEnabled = true
+            i = i + 1
+        }
+    }
     func verifWin(tab: [Int]) -> Bool{
         //lignes
         var i = 0
@@ -66,6 +84,15 @@ class ViewController: UIViewController {
             return true
         }
         
+        return false
+    }
+    
+    func verifLoose(tab: [Int]) -> Bool{
+        for i in tab{
+            if i != -1{
+                return true
+                }
+            }
         return false
     }
     
