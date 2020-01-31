@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="width" constant="110" id="iyL-9h-4fB"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AYn-fX-7Zh"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="5xP-SL-2H3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVI-n7-dga">
@@ -42,7 +42,7 @@
                                     <constraint firstAttribute="height" constant="110" id="hkH-B3-QIz"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0Y-8b-WPy"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="KXT-mx-FbL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aig-HT-FN0">
@@ -52,7 +52,7 @@
                                     <constraint firstAttribute="height" constant="110" id="jCX-i3-5BA"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dym-Fq-2tM"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="ylK-qv-xph"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8p-rm-T5l">
@@ -62,7 +62,7 @@
                                     <constraint firstAttribute="width" constant="110" id="TRi-3b-2LZ"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldi-Ib-CLv"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="Iab-wa-zhc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHd-9r-2bh">
@@ -72,7 +72,7 @@
                                     <constraint firstAttribute="width" constant="110" id="3hL-Je-ChR"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X5b-nX-te4"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="zIO-WB-H6E"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64q-Bv-Zo0">
@@ -82,7 +82,7 @@
                                     <constraint firstAttribute="height" constant="110" id="wKk-4t-1wl"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oO6-b7-aBC"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="b1L-k5-d9P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljr-9q-Qc0">
@@ -92,7 +92,7 @@
                                     <constraint firstAttribute="width" constant="110" id="i2U-XE-DxW"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2e-tS-TaO"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="K9X-UR-mIo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zf-Y2-owr">
@@ -102,7 +102,7 @@
                                     <constraint firstAttribute="width" constant="110" id="eqD-uT-nbF"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9a-ad-fJD"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="s8T-Ig-WIJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbV-qn-lfM">
@@ -112,7 +112,7 @@
                                     <constraint firstAttribute="width" constant="110" id="X1x-Mo-5V8"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fxv-FW-5SV"/>
+                                    <action selector="enfonce:" destination="BYZ-38-t0r" eventType="touchDown" id="sH3-Dj-ec1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXP-Cc-7Dt">
